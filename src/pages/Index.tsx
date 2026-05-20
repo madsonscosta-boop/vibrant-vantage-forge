@@ -19,20 +19,20 @@ export default function Index() {
         <div className="mx-auto max-w-7xl px-6 pt-10 pb-32">
           <div className="relative aspect-video w-full overflow-hidden rounded-3xl border border-border/50 bg-card/40 backdrop-blur">
             <div className="flex h-full w-full items-center justify-center text-sm text-muted-foreground">
-              Vídeo em breve
+              Video coming soon
             </div>
           </div>
 
           <div className="mt-24 rounded-3xl px-8 py-16 text-center text-primary-foreground md:px-16 md:py-20" style={{ backgroundColor: "#6f64ff" }}>
             <p className="mx-auto max-w-3xl font-display text-3xl leading-snug md:text-4xl">
-              Uma agência criativa para marcas prontas para crescer.
+              A creative agency for brands ready to grow.
             </p>
             <p className="mx-auto mt-6 max-w-2xl font-display text-2xl leading-snug md:text-3xl">
-              Ajudamos marcas a construir reconhecimento, criar conteúdo relevante e cultivar comunidades engajadas através de marketing digital estratégico.
+              We help brands build recognition, create relevant content, and cultivate engaged communities through strategic digital marketing.
             </p>
-            <Link to="/#contato" className="mt-10 inline-flex flex-col items-center rounded-full border border-primary-foreground/70 px-8 py-3 text-sm leading-tight transition hover:bg-primary-foreground/10">
-              <span>Gostou do que viu?</span>
-              <span>Vamos conversar!</span>
+            <Link to="/#contact" className="mt-10 inline-flex flex-col items-center rounded-full border border-primary-foreground/70 px-8 py-3 text-sm leading-tight transition hover:bg-primary-foreground/10">
+              <span>Like what you see?</span>
+              <span>Let's talk!</span>
             </Link>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Index() {
               key={img.slug}
               to={`/portfolio/${img.slug}`}
               className={`group overflow-hidden rounded-2xl ${img.fit === "contain" ? "bg-transparent" : "bg-background"} ${img.cls}`}
-              aria-label={`Ver projeto: ${img.title}`}
+              aria-label={`View project: ${img.title}`}
             >
               {img.coverVideo ? (
                 <video src={img.coverVideo} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" playsInline muted loop autoPlay preload="metadata" aria-label={img.alt} />
@@ -59,17 +59,17 @@ export default function Index() {
       </section>
 
       {/* SERVICES */}
-      <section id="servicos" className="bg-cream px-6 py-20 scroll-mt-24">
+      <section id="services" className="bg-cream px-6 py-20 scroll-mt-24">
         <div className="mx-auto max-w-7xl rounded-3xl px-6 py-20 text-center md:px-16 md:py-24" style={{ backgroundColor: "#6f64ff" }}>
-          <h2 className="font-display text-4xl text-cream md:text-5xl">Nossos serviços de social media</h2>
+          <h2 className="font-display text-4xl text-cream md:text-5xl">Our social media services</h2>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             {[
-              { t: "Estratégia Social", d: "Posicionamento, pilares de conteúdo e calendários editoriais alinhados ao seu público e aos objetivos da marca." },
-              { t: "Gestão de Social Media", d: "Operação diária dos seus canais: publicação, comunidade, atendimento ao cliente e relatórios mensais com insights acionáveis." },
-              { t: "Criação de Conteúdo", d: "Fotos, reels e carrosséis que traduzem a identidade da sua marca em conteúdo nativo de cada plataforma." },
-              { t: "Conteúdo Criativo", d: "Conceitos originais, campanhas e formatos criados para gerar conversa, salvamentos e compartilhamentos — não apenas impressões." },
-              { t: "Mídia Paga", d: "Gestão de mídia em Meta, Google, TikTok e YouTube com modelagem de funil, criativos de alta performance e otimização semanal para reduzir o CAC e escalar resultados." },
-              { t: "Produção de Vídeo", d: "Roteirização, filmagem e edição de vídeos para anúncios, UGC e conteúdo orgânico com foco em performance e storytelling." },
+              { t: "Social Strategy", d: "Positioning, content pillars, and editorial calendars aligned with your audience and brand objectives." },
+              { t: "Social Media Management", d: "Daily channel operation: posting, community management, customer service, and monthly reports with actionable insights." },
+              { t: "Content Creation", d: "Photos, reels, and carousels that translate your brand identity into native content for each platform." },
+              { t: "Creative Content", d: "Original concepts, campaigns, and formats built to spark conversation, saves, and shares — not just impressions." },
+              { t: "Paid Media", d: "Media management across Meta, Google, TikTok, and YouTube with funnel modeling, high-performance creatives, and weekly optimization to reduce CAC and scale results." },
+              { t: "Video Production", d: "Scripting, filming, and editing videos for ads, UGC, and organic content with a focus on performance and storytelling." },
             ].map((s) => (
               <Popover key={s.t}>
                 <PopoverTrigger asChild>
@@ -91,7 +91,7 @@ export default function Index() {
       <section className="border-t border-border/40 bg-[#0e1020] text-primary-foreground">
         <div className="mx-auto max-w-7xl px-6 py-28">
           <p className="font-display text-2xl leading-tight md:text-4xl">
-            "Trabalhar com a FIG fez uma diferença enorme. Meu Instagram cresceu de 400 para 1.395 seguidores, os workshops esgotaram e me senti à vontade diante das câmeras — até ganhando um convite para a TV. Suporte profissional e dedicado. Recomendo muito!"
+            "Working with FIG made a huge difference. My Instagram grew from 400 to 1,395 followers, the workshops sold out, and I felt comfortable in front of cameras — even getting invited to TV. Professional and dedicated support. Highly recommend!"
           </p>
           <div className="mt-10 flex items-center gap-4">
             <div className="h-12 w-12 rounded-full bg-cream" />
@@ -103,16 +103,16 @@ export default function Index() {
         </div>
       </section>
 
-      {/* CTA — Email (sem backend) */}
-      <section id="contato" className="bg-cream px-6 py-20 scroll-mt-24">
+      {/* CTA — Email (no backend) */}
+      <section id="contact" className="bg-cream px-6 py-20 scroll-mt-24">
         <div className="mx-auto max-w-6xl rounded-3xl bg-background px-6 py-16 text-[#6f64ff] md:px-16 md:py-20">
           <h2 className="text-center font-display text-4xl leading-tight md:text-5xl">
-            Gostou do que viu?
+            Like what you see?
             <br />
-            Vamos fazer acontecer!
+            Let's make it happen!
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-center text-base text-[#6f64ff]/80">
-            Envie um e-mail e responderemos em breve.
+            Send an email and we'll get back to you shortly.
           </p>
 
           <div className="mx-auto mt-12 max-w-md">
@@ -120,12 +120,12 @@ export default function Index() {
               href={mailtoLink()}
               className="block rounded-full bg-[#6f64ff] px-8 py-5 text-center text-base font-semibold text-white shadow-lg shadow-[#6f64ff]/30 transition hover:bg-[#5a50e6] hover:scale-105 hover:shadow-xl"
             >
-              Enviar e-mail
+              Send email
             </a>
           </div>
 
           <p className="mt-6 text-center text-sm text-[#6f64ff]/70">
-            ou escreva para{" "}
+            or write to{" "}
             <a href={mailtoLink()} className="underline">{EMAIL}</a>
           </p>
         </div>

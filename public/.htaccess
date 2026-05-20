@@ -1,4 +1,4 @@
-# SPA fallback para Hostinger / Apache (cPanel)
+# SPA fallback for Hostinger / Apache (cPanel)
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -8,7 +8,7 @@
   RewriteRule . /index.html [L]
 </IfModule>
 
-# Cache de assets com hash
+# Asset cache with hash
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/jpeg "access plus 1 year"
