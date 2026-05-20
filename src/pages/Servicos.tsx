@@ -1,34 +1,13 @@
-import { createFileRoute } from "@tanstack/react-router";
-
-export const Route = createFileRoute("/servicos")({
-  head: () => ({
-    meta: [
-      { title: "Services — FIG" },
-      { name: "description", content: "Video, paid media and content strategy." },
-    ],
-  }),
-  component: ServicosPage,
-});
+import { usePageMeta } from "@/hooks/usePageMeta";
 
 const services = [
-  {
-    t: "Video",
-    d: "From idea to final cut. Organic content, UGC and ads built to perform in the first 3 seconds.",
-    items: ["Creative direction", "4K production", "Editing + motion", "UGC at scale"],
-  },
-  {
-    t: "Paid Media",
-    d: "Daily management with funnel modelling, weekly creative testing and transparent dashboards.",
-    items: ["Meta Ads", "Google Ads", "TikTok / YouTube", "Weekly reports"],
-  },
-  {
-    t: "Brand Strategy",
-    d: "Positioning, offer and copywriting. Creativity works better when it starts with a good question.",
-    items: ["Audience research", "Positioning", "Offer + copy", "Conversion funnel"],
-  },
+  { t: "Video", d: "From idea to final cut. Organic content, UGC and ads built to perform in the first 3 seconds.", items: ["Creative direction", "4K production", "Editing + motion", "UGC at scale"] },
+  { t: "Paid Media", d: "Daily management with funnel modelling, weekly creative testing and transparent dashboards.", items: ["Meta Ads", "Google Ads", "TikTok / YouTube", "Weekly reports"] },
+  { t: "Brand Strategy", d: "Positioning, offer and copywriting. Creativity works better when it starts with a good question.", items: ["Audience research", "Positioning", "Offer + copy", "Conversion funnel"] },
 ];
 
-function ServicosPage() {
+export default function Servicos() {
+  usePageMeta("Services — FIG", "Video, paid media and content strategy.");
   return (
     <section className="mx-auto max-w-7xl px-6 py-24">
       <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">Services</p>
