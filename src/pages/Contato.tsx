@@ -3,12 +3,12 @@ import { usePageMeta } from "@/hooks/usePageMeta";
 import { mailtoLink, EMAIL } from "@/lib/contact";
 
 export default function Contato() {
-  usePageMeta("Contact — FIG", "Talk to FIG via e-mail.");
+  usePageMeta("Contato — FIG", "Fale com a FIG por e-mail.");
   return (
     <section className="mx-auto max-w-3xl px-6 py-24">
-      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">Contact</p>
+      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">Contato</p>
       <h1 className="mt-3 font-display text-6xl leading-[0.95]">
-        Let's talk about <span className="italic">attention</span>.
+        Vamos falar sobre <span className="italic">atenção</span>.
       </h1>
       <p className="mt-6 text-lg text-muted-foreground">
         Sem formulário, sem espera. Envie um e-mail e responderemos em breve.
@@ -26,7 +26,7 @@ export default function Contato() {
       </div>
 
       <p className="mt-12 text-sm text-muted-foreground">
-        <Link to="/" className="hover:text-brand-glow">← back to home</Link>
+        <Link to="/" className="hover:text-brand-glow">← voltar para a home</Link>
       </p>
     </section>
   );

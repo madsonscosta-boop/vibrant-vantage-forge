@@ -1,25 +1,25 @@
 import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function Sobre() {
-  usePageMeta("About — FIG", "Who FIG is and how we think about attention.");
+  usePageMeta("Sobre — FIG", "Quem é a FIG e como pensamos sobre atenção.");
   return (
     <section className="mx-auto max-w-4xl px-6 py-24">
-      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">About</p>
+      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">Sobre</p>
       <h1 className="mt-3 font-display text-6xl leading-[0.95] md:text-7xl">
-        <span className="italic">Marketing that makes brands understood, remembered and chosen.</span>
+        <span className="italic">Marketing que faz marcas serem compreendidas, lembradas e escolhidas.</span>
       </h1>
       <div className="mt-12 space-y-6 text-lg text-foreground/85">
-        <p>FIG is a digital marketing studio based in Rotterdam, helping brands grow through strategy, content, paid visibility and digital presence.</p>
-        <p>We work as strategic partners, not just executors. That means we think alongside our clients, understand what makes their brand meaningful, and create marketing that feels clear, intentional and connected to real business goals.</p>
-        <p>Behind FIG are two people with backgrounds in communications, PR and paid media who decided to join forces to build something of their own. We are ambitious, hands-on, and genuinely invested in seeing the brands we work with grow.</p>
-        <p>For us, marketing is not just about being seen. It is about being understood, remembered and chosen.</p>
+        <p>A FIG é um estúdio de marketing digital baseado em Rotterdam, que ajuda marcas a crescerem através de estratégia, conteúdo, visibilidade paga e presença digital.</p>
+        <p>Trabalhamos como parceiros estratégicos, não apenas executores. Isso significa que pensamos junto com nossos clientes, entendemos o que torna sua marca significativa e criamos marketing que se sente claro, intencional e conectado a objetivos de negócio reais.</p>
+        <p>Por trás da FIG estão duas pessoas com formação em comunicação, RP e mídia paga que decidiram unir forças para construir algo próprio. Somos ambiciosos, práticos e genuinamente investidos em ver as marcas com quem trabalhamos crescerem.</p>
+        <p>Para nós, marketing não é apenas sobre ser visto. É sobre ser compreendido, lembrado e escolhido.</p>
       </div>
 
       <div className="mt-16 grid gap-6 sm:grid-cols-3">
         {[
           { k: "2026", v: "" },
-          { k: "12+", v: "Brands served" },
-          { k: "4", v: "People on the team" },
+          { k: "12+", v: "Marcas atendidas" },
+          { k: "4", v: "Pessoas no time" },
         ].map((s) => (
           <div key={s.k} className="rounded-2xl border border-border bg-card p-6">
             <p className="font-display text-4xl text-brand-glow/50">{s.k}</p>
