@@ -82,7 +82,7 @@ function Footer() {
           <div className="flex items-center gap-2">
             <img src={logo} alt="FIG" className="h-10 w-auto" />
           </div>
-          <p className="mt-4 max-w-sm text-sm text-white/70">FIG — for brands ready to grow.</p>
+          <p className="mt-4 max-w-sm text-sm text-white/70">For brands ready to grow.</p>
         </div>
         <div>
           <p className="text-xs uppercase tracking-widest text-white/60">Navigate</p>
