@@ -1,0 +1,56 @@
+import { createFileRoute } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/sobre")({
+  head: () => ({
+    meta: [
+      { title: "About — FIG" },
+      { name: "description", content: "Who FIG is and how we think about attention." },
+    ],
+  }),
+  component: SobrePage,
+});
+
+function SobrePage() {
+  return (
+    <section className="mx-auto max-w-4xl px-6 py-24">
+      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">About</p>
+      <h1 className="mt-3 font-display text-6xl leading-[0.95] md:text-7xl">
+        <span className="italic">Marketing that makes brands understood, remembered and chosen.</span>
+      </h1>
+      <div className="mt-12 space-y-6 text-lg text-foreground/85">
+        <p>
+          FIG is a digital marketing studio based in Rotterdam, helping brands grow through
+          strategy, content, paid visibility and digital presence.
+        </p>
+        <p>
+          We work as strategic partners, not just executors. That means we think alongside
+          our clients, understand what makes their brand meaningful, and create marketing
+          that feels clear, intentional and connected to real business goals.
+        </p>
+        <p>
+          Behind FIG are two people with backgrounds in communications, PR and paid media
+          who decided to join forces to build something of their own. We are ambitious,
+          hands-on, and genuinely invested in seeing the brands we work with grow.
+        </p>
+        <p>
+          For us, marketing is not just about being seen. It is about being understood,
+          remembered and chosen.
+        </p>
+      </div>
+
+      <div className="mt-16 grid gap-6 sm:grid-cols-3">
+        {[
+          { k: "2026", v: "" },
+          { k: "12+", v: "Brands served" },
+          { k: "4", v: "People on the team" },
+        ].map((s) => (
+          <div key={s.k} className="rounded-2xl border border-border bg-card p-6">
+            <p className="font-display text-4xl text-brand-glow/50">{s.k}</p>
+            <p className="mt-1 text-sm text-muted-foreground/60">{s.v}</p>
+          </div>
+        ))}
+      </div>
+
+    </section>
+  );
+}
