@@ -44,7 +44,7 @@ function Header() {
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          aria-label={open ? "Fechar menu" : "Abrir menu"}
+          aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           className="flex h-9 w-9 items-center justify-center rounded-full text-[#0e1020]/80 transition hover:bg-[#0e1020]/10 hover:text-[#0e1020]"
         >
@@ -57,16 +57,16 @@ function Header() {
           <button
             type="button"
             onClick={() => setOpen(false)}
-            aria-label="Fechar menu"
+            aria-label="Close menu"
             className="absolute right-6 top-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-background/10 text-background transition hover:bg-background/20"
           >
             <X size={24} />
           </button>
           <nav className="flex h-full w-full flex-col items-center justify-center gap-6 text-background animate-scale-in">
-            <NavLink to="/#servicos" className="font-display text-5xl md:text-7xl tracking-tight transition hover:text-brand-glow" onClick={() => setOpen(false)}>Serviços</NavLink>
-            <NavLink to="/#portfolio" className="font-display text-5xl md:text-7xl tracking-tight transition hover:text-brand-glow" onClick={() => setOpen(false)}>Trabalhos</NavLink>
-            <NavLink to="/sobre" className="font-display text-5xl md:text-7xl tracking-tight transition hover:text-brand-glow" onClick={() => setOpen(false)}>Sobre</NavLink>
-            <NavLink to="/#contato" className="mt-4 rounded-full bg-brand px-8 py-4 text-lg text-white transition hover:bg-brand-glow" onClick={() => setOpen(false)}>Fale</NavLink>
+            <NavLink to="/#services" className="font-display text-5xl md:text-7xl tracking-tight transition hover:text-brand-glow" onClick={() => setOpen(false)}>Services</NavLink>
+            <NavLink to="/#portfolio" className="font-display text-5xl md:text-7xl tracking-tight transition hover:text-brand-glow" onClick={() => setOpen(false)}>Work</NavLink>
+            <NavLink to="/about" className="font-display text-5xl md:text-7xl tracking-tight transition hover:text-brand-glow" onClick={() => setOpen(false)}>About</NavLink>
+            <NavLink to="/#contact" className="mt-4 rounded-full bg-brand px-8 py-4 text-lg text-white transition hover:bg-brand-glow" onClick={() => setOpen(false)}>Talk</NavLink>
           </nav>
         </div>
       )}
@@ -85,16 +85,16 @@ function Footer() {
           <p className="mt-4 max-w-sm text-sm text-white/70">FIG — for brands ready to grow.</p>
         </div>
         <div>
-          <p className="text-xs uppercase tracking-widest text-white/60">Navegar</p>
+          <p className="text-xs uppercase tracking-widest text-white/60">Navigate</p>
           <ul className="mt-4 space-y-2 text-sm text-white/80">
-            <li><Link to="/#servicos" className="transition hover:text-brand-glow">Serviços</Link></li>
-            <li><Link to="/#portfolio" className="transition hover:text-brand-glow">Trabalhos</Link></li>
-            <li><Link to="/sobre" className="transition hover:text-brand-glow">Sobre</Link></li>
-            <li><Link to="/#contato" className="transition hover:text-brand-glow">Contato</Link></li>
+            <li><Link to="/#services" className="transition hover:text-brand-glow">Services</Link></li>
+            <li><Link to="/#portfolio" className="transition hover:text-brand-glow">Work</Link></li>
+            <li><Link to="/about" className="transition hover:text-brand-glow">About</Link></li>
+            <li><Link to="/#contact" className="transition hover:text-brand-glow">Contact</Link></li>
           </ul>
         </div>
         <div>
-          <p className="text-xs uppercase tracking-widest text-white/60">Contato</p>
+          <p className="text-xs uppercase tracking-widest text-white/60">Contact</p>
           <ul className="mt-4 space-y-2 text-sm text-white/80">
             <li><a href="mailto:hello@figtheagency.com" className="transition hover:text-brand-glow">hello@figtheagency.com</a></li>
             <li><a href="https://instagram.com" className="transition hover:text-brand-glow">@fig.agency</a></li>
@@ -103,8 +103,8 @@ function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 text-xs text-white/60">
-          <span>© {new Date().getFullYear()} FIG. Todos os direitos reservados.</span>
-          <span>Feito com carinho, em Rotterdam</span>
+          <span>© {new Date().getFullYear()} FIG. All rights reserved.</span>
+          <span>Made with love, in Rotterdam</span>
         </div>
       </div>
     </footer>
@@ -119,10 +119,10 @@ export default function App() {
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/servicos" element={<Servicos />} />
-          <Route path="/trabalhos" element={<Trabalhos />} />
-          <Route path="/contato" element={<Contato />} />
+          <Route path="/about" element={<Sobre />} />
+          <Route path="/services" element={<Servicos />} />
+          <Route path="/work" element={<Trabalhos />} />
+          <Route path="/contact" element={<Contato />} />
           <Route path="/portfolio/:slug" element={<PortfolioDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
