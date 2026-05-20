@@ -19,10 +19,10 @@ export const portfolioItems: PortfolioItem[] = [
   {
     slug: "marca-alimentacao",
     title: "Oficina Amor",
-    client: "Cliente em breve",
-    category: "TAGS: ESTRATÉGIA SOCIAL · CONTEÚDO · CRESCIMENTO DE COMUNIDADE · PROMOÇÃO DE WORKSHOPS\n\n ",
+    client: "Client soon",
+    category: "TAGS: SOCIAL STRATEGY · CONTENT · COMMUNITY GROWTH · WORKSHOP PROMOTION\n\n ",
     summary:
-      "O brief:\n\nOficina Amor é um estúdio de restauração e tapeçaria baseado em Portugal. Eles fazem trabalhos de restauração sob medida e realizam workshops práticos. O objetivo era construir sua presença online, colocá-los na frente das pessoas certas e preencher os workshops.\n\nNossa abordagem:\n\nConstruímos uma estratégia de conteúdo em torno do próprio ofício: mostrando o processo, o antes e depois, o detalhe do trabalho. Conteúdo que faz as pessoas pararem, apreciarem o que a restauração e tapeçaria realmente envolvem, e quererem fazer parte disso. Parte da produção foi filmada no local em Portugal.\n\nO resultado:\n\nEsta é uma parceria em andamento.\nEm 3 meses, a conta cresceu mais de 1.000 seguidores. Os workshops estão esgotados desde então.",
+      "The brief:\n\nOficina Amor is a restoration and upholstery studio based in Portugal. They do bespoke restoration work and run hands-on workshops. The goal was to build their online presence, get them in front of the right people, and fill the workshops.\n\nOur approach:\n\nWe built a content strategy around the craft itself: showing the process, the before and after, the detail of the work. Content that makes people stop, appreciate what restoration and upholstery really involves, and want to be part of it. Part of the production was shot on location in Portugal.\n\nThe result:\n\nThis is an ongoing partnership.\nIn 3 months, the account grew by over 1,000 followers. The workshops have been sold out ever since.",
     src: "/portfolio/oficina-amor/cover.jpg",
     alt: "Oficina Amor",
     cls: "md:col-span-1 md:row-span-1 aspect-[4/5]",
@@ -36,10 +36,10 @@ export const portfolioItems: PortfolioItem[] = [
   {
     slug: "hanno",
     title: "Hanno",
-    client: "Cliente em breve",
-    category: "TAGS: BRANDING · PRESENÇA ONLINE · ANÚNCIOS PAGOS · ESTRATÉGIA SOCIAL\n\n\n",
+    client: "Client soon",
+    category: "TAGS: BRANDING · ONLINE PRESENCE · PAID ADS · SOCIAL STRATEGY\n\n\n",
     summary:
-      "O brief:\n\nHanno ajuda pessoas nos Países Baixos a navegarem pelo processo de hipoteca há mais de 7 anos. Entramos para ajudá-los a construir uma presença digital mais forte e alcançar novos públicos.\n\nNossa abordagem:\n\nEstamos trabalhando com a Hanno em duas frentes: construir uma identidade de marca que pareça confiável e clara, e rodar anúncios pagos em duas plataformas para começar a gerar visibilidade e leads. Tudo é projetado para crescer junto com eles à medida que o negócio escala.\n\nO resultado:\n\nEsta é uma parceria em andamento — resultados em breve.",
+      "The brief:\n\nHanno helps people in the Netherlands navigate the mortgage process for over 7 years. We came in to help them build a stronger digital presence and reach new audiences.\n\nOur approach:\n\nWe're working with Hanno on two fronts: building a brand identity that feels trustworthy and clear, and running paid ads across two platforms to start generating visibility and leads. Everything is designed to grow with them as the business scales.\n\nThe result:\n\nThis is an ongoing partnership — results coming soon.",
     src: "/portfolio/hanno/cover.mp4",
     alt: "Hanno",
     cls: "md:col-span-1 md:row-span-1 aspect-[4/5]",
@@ -49,10 +49,10 @@ export const portfolioItems: PortfolioItem[] = [
   {
     slug: "ori-mart",
     title: "Ori Mart",
-    client: "Cliente em breve",
-    category: "TAGS: ESTRATÉGIA · CRIAÇÃO DE CONTEÚDO · FOTOGRAFIA · META ADS · INSTAGRAM · FACEBOOK · TIKTOK\n\n\n",
+    client: "Client soon",
+    category: "TAGS: STRATEGY · CONTENT CREATION · PHOTOGRAPHY · META ADS · INSTAGRAM · FACEBOOK · TIKTOK\n\n\n",
     summary:
-      "O brief:\n\nOri Mart é uma loja de conveniência asiática no coração de Rotterdam. Uma parada diária para moradores e um momento de descoberta para turistas de passagem. Quando nos aproximamos deles, sua presença digital não refletia a energia da loja.\n\nNossa abordagem:\n\nConstruímos tudo do zero: estratégia de conteúdo, filmagens mensais no local, campanhas pagas em Meta, e presença orgânica em Instagram, Facebook e TikTok. O conteúdo é feito para parecer nativo de cada plataforma, não polido por polir, mas real o suficiente para parar o scroll.\n\nO resultado:\n\nEsta é uma parceria em andamento.\nEm apenas 2 meses, o Instagram cresceu de 2.558 para 3.611 seguidores (+41%). O Facebook foi lançado do zero e alcançou 272K+ visualizações. Um único reel atingiu 97K visualizações com 908 compartilhamentos, o conteúdo mais forte produzido pela FIG para a conta até hoje. Meta ads entregou um custo por clique de €0,05 com €331 em investimento total de anúncios no mês.\n\nAbril foi o melhor mês digital deles de todos os tempos.",
+      "The brief:\n\nOri Mart is an Asian convenience store in the heart of Rotterdam. A daily stop for locals and a moment of discovery for passing tourists. When we approached them, their digital presence didn't reflect the energy of the store.\n\nOur approach:\n\nWe built everything from scratch: content strategy, monthly on-location shoots, paid campaigns on Meta, and organic presence on Instagram, Facebook, and TikTok. The content is made to feel native to each platform, not polished for polish's sake, but real enough to stop the scroll.\n\nThe result:\n\nThis is an ongoing partnership.\nIn just 2 months, Instagram grew from 2,558 to 3,611 followers (+41%). Facebook was launched from scratch and reached 272K+ views. A single reel hit 97K views with 908 shares, the strongest piece of content FIG has produced for the account to date. Meta ads delivered a cost per click of €0.05 with €331 in total ad spend for the month.\n\nApril was their best digital month ever.",
     src: "/portfolio/ori-mart/cover.mp4",
     alt: "Ori Mart",
     cls: "md:col-span-1 md:row-span-1 aspect-[4/5]",
@@ -66,10 +66,10 @@ export const portfolioItems: PortfolioItem[] = [
   {
     slug: "esporte",
     title: "Design Biennale Rotterdam",
-    client: "Cliente em breve",
-    category: "TAGS: ESTRATÉGIA DE COMUNICAÇÃO · GESTÃO DE SOCIAL MEDIA · PLANEJAMENTO DE CONTEÚDO · LANÇAMENTO DE MARCA\n\n ",
+    client: "Client soon",
+    category: "TAGS: COMMUNICATION STRATEGY · SOCIAL MEDIA MANAGEMENT · CONTENT PLANNING · BRAND LAUNCH\n\n ",
     summary:
-      "O brief: Um festival de design inaugural em 12 locais de Rotterdam, com mais de 100 designers participantes. Sem público existente, sem manual. Construído do zero. Nossa abordagem: Contratados como gestores de comunicação para construir a presença digital do zero. Desenvolvemos a estratégia do Instagram, gerenciamos o conteúdo do dia a dia, e coordenamos a produção visual entre mais de 100 designers e parceiros — trabalhando com um designer gráfico para manter um programa extenso com a sensação de um evento coeso. O resultado: De 0 a 6.000 seguidores para uma conta que não existia antes do lançamento. Uma comunidade construída em torno de uma edição inaugural forte o suficiente para retornar para uma segunda.\n\nVídeo e áudio por Jeff Hoogendijk\nRoteiro por FIG Agency\n",
+      "The brief: A inaugural design festival across 12 Rotterdam locations, with over 100 participating designers. No existing audience, no playbook. Built from scratch. Our approach: Hired as communication managers to build digital presence from the ground up. We developed Instagram strategy, managed day-to-day content, and coordinated visual production across 100+ designers and partners — working with a graphic designer to keep an extensive program feeling like one cohesive event. The result: From 0 to 6,000 followers for an account that didn't exist before launch. A community built around a strong enough inaugural edition to return for a second.\n\nVideo and audio by Jeff Hoogendijk\nScript by FIG Agency\n",
     src: "/portfolio/biennale/cover.mp4",
     alt: "Design Biennale Rotterdam",
     cls: "md:col-span-1 md:row-span-1 md:col-start-2 aspect-[4/5]",
@@ -82,10 +82,10 @@ export const portfolioItems: PortfolioItem[] = [
   {
     slug: "estadio",
     title: "Wasteland - Festival of Art & Ecology",
-    client: "Cliente em breve",
-    category: "TAGS: ESTRATÉGIA DE COMUNICAÇÃO · GESTÃO DE SOCIAL MEDIA · PLANEJAMENTO DE CONTEÚDO · CONSTRUÇÃO DE COMUNIDADE\n\n ",
+    client: "Client soon",
+    category: "TAGS: COMMUNICATION STRATEGY · SOCIAL MEDIA MANAGEMENT · CONTENT PLANNING · COMMUNITY BUILDING\n\n ",
     summary:
-      "O brief: Wasteland é um coletivo de Rotterdam que trabalha na interseção entre arte e ecologia — exposições, performances, passeios de campo, workshops. Eles precisavam de alguém para assumir suas comunicações e fazer um programa complexo e fragmentado parecer vivo e acessível online. Nossa abordagem: Contratados como gestores de comunicação em Instagram, site e comunicações externas. Coordenamos conteúdo de mais de 20 artistas e colaboradores ao longo de uma temporada completa, trabalhando com um designer gráfico em templates visuais e consistência. O resultado: Uma temporada de programação comunicada claramente, com uma comunidade crescente e engajada. O Instagram se tornou um reflexo genuíno da organização — não apenas um mural de avisos.\n\nDesign gráfico por Martin Foucaut\n",
+      "The brief: Wasteland is a Rotterdam collective working at the intersection of art and ecology — exhibitions, performances, field trips, workshops. They needed someone to take over their communications and make a complex, fragmented program feel alive and accessible online. Our approach: Hired as communication managers across Instagram, website, and external communications. We coordinated content from 20+ artists and collaborators across a full season, working with a graphic designer on visual templates and consistency. The result: A season of programming communicated clearly, with a growing and engaged community. Instagram became a genuine reflection of the organization — not just a bulletin board.\n\nGraphic design by Martin Foucaut\n",
     src: "/portfolio/wasteland/cover.png",
     alt: "Wasteland - Out of Sight",
     cls: "md:col-span-1 md:row-span-1 aspect-[4/5]",
