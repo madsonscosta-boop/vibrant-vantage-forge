@@ -1,6 +1,5 @@
-// Edite estes valores para o seu contato real.
-// O número do WhatsApp deve estar no formato internacional, só dígitos (ex.: 5511999999999).
+// Edit these values for your real contact info.
 export const EMAIL = "hello@figtheagency.com";
 
-export const mailtoLink = (subject = "Contato pelo site FIG", body = "") =>
+export const mailtoLink = (subject = "Contact from FIG website", body = "") =>
   `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}${body ? `&body=${encodeURIComponent(body)}` : ""}`;

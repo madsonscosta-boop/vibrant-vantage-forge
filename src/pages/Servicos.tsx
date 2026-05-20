@@ -1,18 +1,18 @@
 import { usePageMeta } from "@/hooks/usePageMeta";
 
 const services = [
-  { t: "Vídeo", d: "Da ideia ao corte final. Conteúdo orgânico, UGC e anúncios criados para performar nos primeiros 3 segundos.", items: ["Direção criativa", "Produção 4K", "Edição + motion", "UGC em escala"] },
-  { t: "Mídia Paga", d: "Gestão diária com modelagem de funil, testes semanais de criativos e dashboards transparentes.", items: ["Meta Ads", "Google Ads", "TikTok / YouTube", "Relatórios semanais"] },
-  { t: "Estratégia de Marca", d: "Posicionamento, oferta e copywriting. A criatividade funciona melhor quando começa com uma boa pergunta.", items: ["Pesquisa de público", "Posicionamento", "Oferta + copy", "Funil de conversão"] },
+  { t: "Video", d: "From idea to final cut. Organic content, UGC, and ads built to perform in the first 3 seconds.", items: ["Creative direction", "4K production", "Editing + motion", "UGC at scale"] },
+  { t: "Paid Media", d: "Daily management with funnel modeling, weekly creative testing, and transparent dashboards.", items: ["Meta Ads", "Google Ads", "TikTok / YouTube", "Weekly reports"] },
+  { t: "Brand Strategy", d: "Positioning, offer, and copywriting. Creativity works best when it starts with a good question.", items: ["Audience research", "Positioning", "Offer + copy", "Conversion funnel"] },
 ];
 
 export default function Servicos() {
-  usePageMeta("Serviços — FIG", "Vídeo, mídia paga e estratégia de conteúdo.");
+  usePageMeta("Services — FIG", "Video, paid media, and content strategy.");
   return (
     <section className="mx-auto max-w-7xl px-6 py-24">
-      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">Serviços</p>
+      <p className="text-xs uppercase tracking-[0.25em] text-brand-glow">Services</p>
       <h1 className="mt-3 max-w-3xl font-display text-6xl leading-[0.95] md:text-7xl">
-        Tudo que sua marca precisa para <span className="italic">se tornar a conversa</span>.
+        Everything your brand needs to <span className="italic">become the conversation</span>.
       </h1>
 
       <div className="mt-20 space-y-px overflow-hidden rounded-3xl border border-border">
