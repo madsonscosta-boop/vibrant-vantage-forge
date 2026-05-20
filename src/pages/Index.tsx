@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { portfolioItems } from "@/lib/portfolio";
-import { whatsappLink, mailtoLink, EMAIL } from "@/lib/contact";
+import { mailtoLink, EMAIL } from "@/lib/contact";
 
 export default function Index() {
   return (
@@ -103,7 +103,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* CTA — WhatsApp / Email (sem backend) */}
+      {/* CTA — Email (sem backend) */}
       <section id="contato" className="bg-cream px-6 py-20 scroll-mt-24">
         <div className="mx-auto max-w-6xl rounded-3xl bg-background px-6 py-16 text-[#6f64ff] md:px-16 md:py-20">
           <h2 className="text-center font-display text-4xl leading-tight md:text-5xl">
@@ -112,21 +112,13 @@ export default function Index() {
             Let's make it happen!
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-center text-base text-[#6f64ff]/80">
-            Fale com a gente pelo canal mais rápido: WhatsApp ou e-mail.
+            Envie um e-mail e responderemos em breve.
           </p>
 
-          <div className="mx-auto mt-12 grid max-w-2xl gap-5 sm:grid-cols-2">
-            <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-[#25D366] px-8 py-5 text-center text-base font-semibold text-white shadow-lg transition hover:scale-105 hover:shadow-xl"
-            >
-              Falar no WhatsApp
-            </a>
+          <div className="mx-auto mt-12 max-w-md">
             <a
               href={mailtoLink()}
-              className="rounded-full bg-[#6f64ff] px-8 py-5 text-center text-base font-semibold text-white shadow-lg shadow-[#6f64ff]/30 transition hover:bg-[#5a50e6] hover:scale-105 hover:shadow-xl"
+              className="block rounded-full bg-[#6f64ff] px-8 py-5 text-center text-base font-semibold text-white shadow-lg shadow-[#6f64ff]/30 transition hover:bg-[#5a50e6] hover:scale-105 hover:shadow-xl"
             >
               Enviar e-mail
             </a>
